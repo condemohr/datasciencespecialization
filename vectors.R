@@ -1,8 +1,15 @@
-#Creating vectors
+#CREATING VECTORS
 #
-x<-c(0.5,0.6)      ## numeric
+#c() function 
+#
+x<-c(0.5,0.6)         ## numeric
 x<-c(TRUE,FALSE)      ## logical
-x<-c(T,F)      ## logical
-x<-c("a","b","c")      ## character
-x<-9:29      ## integer
-x<-c(1+0i,2+4i)      ## complex
+x<-c(T,F)             ## logical
+x<-c("a","b","c")     ## character
+x<-9:29               ## integer
+x<-c(1+0i,2+4i)       ## complex
+
+#
+#vector() function 
+#
+x<-vector("numeric", length=10)
